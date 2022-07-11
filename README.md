@@ -30,7 +30,6 @@ We used typical binary classifier parameters for our deep learning model:
 - Our first hidden layer will have an input_dim equal to the length of the scaled feature data X (43), 29 neuron units, and will use the relu activation function.
 - Our second hidden layer will have 14 neuron units and also will use the relu activation function.
 - Our output layer uses the signmoid activation function to help us predict the probability an application is successful (i.e., uses the loan money effectively).
-- The loss function should be binary_crossentropy, using the adam optimizer.
 
 Since we didn't want our deeper layers to overfit the input data, we did not use the general suggestion of two to three times the number of neurons as the input variables.
 
